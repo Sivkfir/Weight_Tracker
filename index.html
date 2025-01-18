@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weight Tracker</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weight Tracker</h1>
+    <p>יעד מטרה: <span id="targetWeight">60</span> ק"ג</p>
+    <label for="name">שם:</label>
+    <input type="text" id="name" placeholder="הכניסי שם">
+    <label for="weightLoss">כמה ירדת (בק"ג):</label>
+    <input type="number" id="weightLoss" placeholder="הכניסי כמות ירידה">
+    <label for="week">בחרי שבוע:</label>
+    <input type="number" id="week" placeholder="הכניסי מספר שבוע">
+    <button onclick="updateProgress()">עדכני ירידה</button>
+    <button onclick="resetProgress()" style="background-color: red; color: white;">איפוס</button>
+    <div id="feedback"></div>
+    <div class="history">
+      <h3>היסטוריה:</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

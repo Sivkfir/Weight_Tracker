@@ -1,0 +1,58 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('C:/Users/sivan/Desktop/WeightTrackerWebApp/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.progress, .history {
+  margin-top: 20px;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history li {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
